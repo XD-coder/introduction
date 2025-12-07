@@ -26,7 +26,7 @@ function App() {
   }, []);
 
   return (
-    <div className="relative h-screen overflow-y-scroll snap-y snap-mandatory">
+    <div className="relative h-screen overflow-x-hidden overflow-y-scroll md:snap-y md:snap-mandatory">
       {/* Navbar */}
       <Navbar />
 

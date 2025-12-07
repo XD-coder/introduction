@@ -6,7 +6,7 @@ export function HeroSection() {
   return (
     <section
       id="hero"
-      className="relative w-screen snap-start snap-always bg-linear-to-br from-slate-950 via-slate-900 to-slate-950 flex flex-col justify-center items-center overflow-hidden pt-12"
+      className="relative md:snap-start md:snap-always bg-linear-to-br from-slate-950 via-slate-900 to-slate-950 flex flex-col justify-center items-center overflow-hidden pt-12"
       style={{ height: 'calc(100vh - 3rem)' }}
     >
       {/* Animated background gradient */}

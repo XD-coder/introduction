@@ -28,7 +28,7 @@ export function Footer() {
   };
 
   return (
-    <footer className="relative bg-slate-950 border-t border-slate-800 snap-start snap-always flex items-center justify-center px-4 md:px-8" style={{ minHeight: 'calc(100vh - 3rem)' }}>
+    <footer className="relative bg-slate-950 border-t border-slate-800 md:snap-start md:snap-always flex items-center justify-center px-4 md:px-8" style={{ minHeight: 'calc(100vh - 3rem)' }}>
       <div className="max-w-6xl mx-auto w-full">
         <div className="grid md:grid-cols-3 gap-8 mb-6">
           {/* Brand Section */}

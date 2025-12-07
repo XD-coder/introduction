@@ -5,7 +5,7 @@ export function SkillsSection() {
   return (
     <section
       id="skills"
-      className="relative snap-start snap-always bg-linear-to-b from-slate-950 to-slate-900 pt-16 pb-6 px-4 md:px-8"
+      className="relative md:snap-start md:snap-always bg-linear-to-b from-slate-950 to-slate-900 pt-16 pb-6 px-4 md:px-8"
       style={{ minHeight: 'calc(100vh - 3rem)' }}
     >
       <div className="relative z-10 max-w-5xl mx-auto h-full flex flex-col">

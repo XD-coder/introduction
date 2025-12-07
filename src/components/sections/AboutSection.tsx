@@ -5,7 +5,7 @@ export function AboutSection() {
   return (
     <section
       id="about"
-      className="relative snap-start snap-always bg-linear-to-b from-slate-900 to-slate-950 pt-16 pb-6 px-4 md:px-8"
+      className="relative md:snap-start md:snap-always bg-linear-to-b from-slate-900 to-slate-950 pt-16 pb-6 px-4 md:px-8"
       style={{ minHeight: 'calc(100vh - 3rem)' }}
     >
       {/* Background decoration */}
