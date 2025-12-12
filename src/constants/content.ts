@@ -125,22 +125,17 @@ export const FOOTER_CONTENT = {
   social: [
     {
       name: "GitHub",
-      url: "https://github.com/yourusername",
+      url: "https://github.com/XD-coder",
       icon: "github",
     },
     {
       name: "LinkedIn",
-      url: "https://linkedin.com/in/yourusername",
+      url: "https://www.linkedin.com/in/kartikeymishra12/",
       icon: "linkedin",
     },
     {
-      name: "Twitter",
-      url: "https://twitter.com/yourusername",
-      icon: "twitter",
-    },
-    {
       name: "Email",
-      url: "mailto:your.email@example.com",
+      url: "mailto:kartikey.m1210@gmail.com",
       icon: "email",
     },
   ],
