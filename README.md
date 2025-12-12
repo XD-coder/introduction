@@ -1,30 +1,103 @@
-# React + TypeScript + Vite
+# Personal Portfolio Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern, responsive portfolio website showcasing my skills, projects, and experience as a Computer Science student and full-stack developer.
 
-Currently, two official plugins are available:
+## 🚀 Built With
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+This portfolio demonstrates my proficiency in modern web development technologies:
 
-## Expanding the ESLint configuration
+### Frontend Framework & Tools
+- **React 19** - Latest React features for building interactive UIs
+- **TypeScript 5.7** - Type-safe development for better code quality
+- **Vite 6.0** - Lightning-fast build tool and dev server
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+### Styling & Design
+- **Tailwind CSS v4** - Utility-first CSS framework with latest gradient syntax
+- **Framer Motion 12** - Advanced animations and gesture handling
+- **Custom Fonts** - Orbitron, Space Grotesk, and JetBrains Mono for modern typography
 
-- Configure the top-level `parserOptions` property like this:
+### UI Components
+- **shadcn/ui** - 45+ beautifully designed components
+- **Radix UI** - Accessible component primitives
+- **Lucide Icons** - Modern icon system
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: "latest",
-    sourceType: "module",
-    project: ["./tsconfig.json", "./tsconfig.node.json"],
-    tsconfigRootDir: __dirname,
-  },
-};
+### Architecture & Best Practices
+- **Component-Based Architecture** - Modular, reusable components
+- **Constants-Driven Content** - Centralized content management
+- **Responsive Design** - Mobile-first approach with breakpoint-specific styling
+- **Accessibility** - ARIA labels, keyboard navigation, and semantic HTML
+
+## 🎨 Features
+
+- **Smooth Animations** - Scroll-triggered and looping animations using Framer Motion
+- **Scroll Progress Indicator** - Real-time scroll tracking with spring physics
+- **Snap Scrolling** - Smooth section navigation on desktop
+- **Mobile Menu** - Fully functional hamburger menu with slide-down animation
+- **Dark Theme** - Cyberpunk-inspired color scheme with cyan and purple accents
+- **Responsive Layout** - Optimized for all screen sizes
+
+## 🛠️ Skills Demonstrated
+
+### Frontend Development
+- Advanced React patterns (hooks, state management, effects)
+- TypeScript interfaces and type safety
+- Modern CSS techniques (Flexbox, Grid, animations)
+- Responsive design principles
+- Performance optimization
+
+### Animation & Interaction
+- Framer Motion spring animations
+- Scroll-based animations
+- Gesture handling
+- Staggered animation timing
+
+### Code Organization
+- Component modularity
+- Constants for content management
+- Clean file structure
+- Separation of concerns
+
+### Tools & Workflow
+- Git version control
+- Package management with pnpm
+- Modern build tools (Vite)
+- ESLint for code quality
+
+## 📦 Project Structure
+
+```
+src/
+├── components/
+│   ├── layout/          # Navbar, Footer, ScrollProgress
+│   ├── sections/        # HeroSection, AboutSection, SkillsSection
+│   └── ui/             # Reusable UI components (45+ components)
+├── constants/          # Content management (content.ts)
+├── lib/               # Utility functions
+└── types/            # TypeScript type definitions
 ```
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+## 🚀 Getting Started
+
+```bash
+# Install dependencies
+pnpm install
+
+# Start development server
+pnpm dev
+
+# Build for production
+pnpm build
+
+# Preview production build
+pnpm preview
+```
+
+## 📫 Connect With Me
+
+- **GitHub**: [XD-coder](https://github.com/XD-coder)
+- **LinkedIn**: [kartikeymishra12](https://www.linkedin.com/in/kartikeymishra12/)
+- **Email**: kartikey.m1210@gmail.com
+
+---
+
+Built with ❤️ using React, TypeScript, and Tailwind CSS
